@@ -7,11 +7,11 @@ import { Outlet } from 'react-router-dom'
 
 const LayoutDesign = () => {
   return (
-
+  
     <div >
       <div style={{ display: 'flex' }}>
         <div>
-          <SidebarPage />
+          <SidebarPage /> 
         </div>
         <div style={{ width: "100%" }}> 
           <div>
@@ -20,7 +20,7 @@ const LayoutDesign = () => {
 
         </div>
 
-      </div>
+      </div> 
     </div>
   )
 }
